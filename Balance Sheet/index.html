@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="styles.css"/>
+        <title>Balance Sheet</title>
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>
+                    <span class="flex">
+                        <span>Good and Kind Co. Ltd.</span>
+                        <span>Balance Sheet</span>
+                    </span>
+                </h1>
+                <div id="years" aria-hidden="true">
+                    <span class="year">2019<br>(GHs)</span>
+                    <span class="year">2020<br>(GHs)</span>
+                    <span class="year">2021<br>(GHs)</span>
+                    <span class="year">2022<br>(GHs)</span>
+                </div>
+                <div class="table-wrap">
+                    <table>
+                        <caption>Assets</caption>
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <th><span class="sr-only year">2019</span></th>
+                                <th><span class="sr-only year">2020</span></th>
+                                <th><span class="sr-only year">2021</span></th>
+                                <th class="current"><span class="sr-only year">2022</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="data">
+                                <th>Cash <span class="description">This is the cash we currently have on hand.</span></th>
+                                <td>50</td>
+                                <td>100</td>
+                                <td>400</td>
+                                <td class="current">500</td>
+                            </tr>
+                            <tr class="data">
+                                <th>Checking <span class="description">Our primary transactional account.</span></th>
+                                <td>100</td>
+                                <td>250</td>
+                                <td>500</td>
+                                <td class="current">1,000</td>
+                            </tr>
+                            <tr class="data">
+                                <th>Savings <span class="description">Funds set aside for emergencies.</span></th>
+                                <td>500</td>
+                                <td>1,200</td>
+                                <td>5,000</td>
+                                <td class="current">10,000</td>
+                            </tr>
+                            <tr class="total">
+                                <th>Total <span class="sr-only">Assets</span></th>
+                                <td>650</td>
+                                <td>1,550</td>
+                                <td>5,900</td>
+                                <td class="current">11,500</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <caption>Liabilities</caption>
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <th><span class="sr-only">2019</span></th>
+                                <th><span class="sr-only">2020</span></th>
+                                <th><span class="sr-only">2021</span></th>
+                                <th><span class="sr-only">2022</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="data">
+                                <th>Loans <span class="description">The outstanding balance on our startup loan.</span></th>
+                                <td>700</td>
+                                <td>450</td>
+                                <td>600</td>
+                                <td class="current">300</td>
+                            </tr>
+                            <tr class="data">
+                                <th>Expenses <span class="description">Annual anticipated expenses, such as payroll.</span></th>
+                                <td>350</td>
+                                <td>400</td>
+                                <td>150</td>
+                                <td class="current">400</td>
+                            </tr>
+                            <tr class="data">
+                                <th>Credit <span class="description">The outstanding balance on our credit card.</span></th>
+                                <td>50</td>
+                                <td>100</td>
+                                <td>350</td>
+                                <td class="current">0</td>
+                            </tr>
+                            <tr class="total">
+                                <th>Total Ghs<span class="sr-only">Liabilities</span></th>
+                                <td>1,100</td>
+                                <td>950</td>
+                                <td>1,100</td>
+                                <td class="current">700</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <caption>Net Worth</caption>
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <th><span class="sr-only">2019</span></th>
+                                <th><span class="sr-only">2020</span></th>
+                                <th><span class="sr-only">2021</span></th>
+                                <th><span class="sr-only">2022</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="total">
+                                <th>Total <span class="sr-only">Net Worth</span></th>
+                                <td>-450</td>
+                                <td>600</td>
+                                <td>4,800</td>
+                                <td class="current">10,800</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
